@@ -6,16 +6,16 @@ const education = [
       duration: 'Dec 2021 – June 2025'
     },
     {
-      degree: 'High School Diploma',
-      institution: 'XYZ Junior College',
-      GPA: '85%',
-      duration: 'Jun 2019 – Apr 2021'
+      degree: 'Junior College',
+      institution: 'Shri Shivaji Vidya Mandir & Jr College',
+      GPA: '91.33%',
+      duration: 'Aug 2019 – Jun 2021'
     },
     {
       degree: 'Secondary School',
-      institution: 'ABC High School',
-      GPA: '92%',
-      duration: 'Jun 2017 – Apr 2019'
+      institution: 'Mar Ivanios Convent High School',
+      GPA: '92.20%',
+      duration: 'Jun 2016 – Apr 2019'
     }
   ];
   
