@@ -1,0 +1,42 @@
+#work-experience {
+    background-color: #2b2f36;
+    padding: 60px 20px;
+  }
+  
+  .work-experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .work-experience-tile {
+    width: 80%;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .work-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .company-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #00b8ff;
+  }
+  
+  .duration {
+    font-size: 1.1rem;
+    color: #bbb;
+  }
+  
+  .job-description {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
