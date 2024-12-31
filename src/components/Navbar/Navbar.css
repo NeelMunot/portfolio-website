@@ -9,13 +9,8 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.9);
   font-size: 1rem;
   margin-left: 15px;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #00b8ff; /* Add hover color effect */
 }
 
 /* To make sure it's responsive */

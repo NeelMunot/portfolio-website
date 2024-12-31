@@ -1,13 +1,15 @@
+@import './styles/variables.css';
+
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom right, #f0f4f8, #d9e7ff);
+  background: var(--bg-light);
   margin: 0;
   padding: 0;
-  color: #333;
+  color: var(--text-dark);
 }
 
 h2 {
-  color: #333;
+  color: var(--text-dark);
   margin-bottom: 1.5em;
   text-align: center;
 }

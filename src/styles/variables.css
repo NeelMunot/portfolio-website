@@ -1,0 +1,25 @@
+:root {
+  /* Project Colors */
+  --primary: #000000;
+  --background: #ffffff;
+  --text: #000000;
+  --accent: #007bff;
+  
+  /* Primary Colors */
+  /* --primary-color: #fbfbfb; */
+  /* --primary-dark: #fcfcfc; */
+  
+  /* Background Colors */
+  /* --bg-dark: #2e3034; */
+  /* --bg-light: #f8f9fa; */
+  /* --bg-card: #565555; */
+  
+  /* Text Colors */
+  /* --text-light: #ffffff; */
+  /* --text-dark: #333333; */
+  /* --text-muted: #666666; */
+  
+  /* Accent Colors */
+  /* --accent-hover: #7a7c7d; */
+  /* --accent-shadow: rgba(88, 87, 87, 0.1); */
+}

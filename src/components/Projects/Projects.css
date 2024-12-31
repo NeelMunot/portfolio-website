@@ -3,23 +3,23 @@
 }
 
 .projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
 
 .project-card {
-  background-color: #f9f9f9;
-  padding: 1.5em;
-  width: 300px;
-  margin: 1em;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  background: var(--background);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   cursor: pointer;
+  transition: transform 0.2s;
 }
 
 .project-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 
 .project-card h3 {
@@ -30,20 +30,29 @@
   color: #666;
 }
 
+.technologies {
+  margin: 15px 0;
+}
+
 .modal-header, .modal-body, .modal-footer {
   text-align: left;
 }
 
 .modal-body ul {
-  list-style-type: disc;
-  padding-left: 1.5em;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .modal-body a {
-  text-decoration: none;
-  color: #007bff;
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  color: var(--accent);
 }
 
 .modal-body a:hover {
   text-decoration: underline;
+}
+
+.modal-body li {
+  margin: 5px 0;
 }

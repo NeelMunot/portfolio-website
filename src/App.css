@@ -15,8 +15,8 @@ section {
 /* Increase the size of About Me section */
 #about {
   padding: 100px 0; /* Increase vertical space */
-  background-color: #f8f9fa; /* You can adjust the background color as needed */
   font-size: 1.2rem; /* Increase font size */
+  color: var(--text-dark);
 }
 
 #about h2 {
@@ -31,17 +31,17 @@ section {
 }
 
 #projects {
-  background-color: #fdfdfd;
+  background-color: var(--background);
   padding: 2em;
 }
 
 #certificates {
-  background-color: #f0f4f8;
+  background-color: var(--background);
   padding: 2em;
 }
 
 #education {
-  background-color: #f9f9f9;
+  background-color: var(--background);
   padding: 2em;
 }
 
@@ -49,7 +49,6 @@ section {
   font-size: 2.5rem;
   margin-bottom: 20px;
   text-align: center;
-  color: #fff;
 }
 
 .tile-box-title {
@@ -59,6 +58,5 @@ section {
 
 .tile-box-content {
   font-size: 1.1rem;
-  color: #ddd;
 }
 
