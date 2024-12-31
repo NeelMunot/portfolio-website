@@ -8,7 +8,11 @@ const Education = () => {
       <h2>Education</h2>
       <div className="education-container">
         {education.map((edu, index) => (
-          <div key={index} className="education-card">
+          <div 
+            key={index} 
+            className="education-card"
+            data-reference={edu.degree}
+          >
             <h3>{edu.degree}</h3>
             <p>{edu.institution}</p>
             <p><strong>GPA:</strong> {edu.GPA}</p>

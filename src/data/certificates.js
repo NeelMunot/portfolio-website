@@ -1,6 +1,6 @@
 const certificates = [
   {
-    title: 'Certified Ethical Hacker (CEH) v12',
+    title: "Certified Ethical Hacker (CEH) v12", // Used as reference
     completionTime: 'Feb 2024',
     validity: 'Feb 2027',
     skills: ['Ethical Hacking', 'Penetration Testing', 'Security Principles'],

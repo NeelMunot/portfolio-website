@@ -22,7 +22,12 @@ const Certificates = () => {
       <h2>Certificates</h2>
       <div className="certificates-container">
         {certificates.map((certificate, index) => (
-          <div key={index} className="certificate-card" onClick={() => handleShowModal(certificate)}>
+          <div 
+            key={index} 
+            className="certificate-card"
+            data-reference={certificate.title}
+            onClick={() => handleShowModal(certificate)}
+          >
             <h3>{certificate.title}</h3>
             <p>Completion Time: {certificate.completionTime}</p>
           </div>

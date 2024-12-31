@@ -13,3 +13,22 @@ h2 {
   margin-bottom: 1.5em;
   text-align: center;
 }
+
+@keyframes highlight {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(0, 184, 255, 0);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 184, 255, 0.5);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(0, 184, 255, 0);
+  }
+}
+
+.highlight-component {
+  animation: highlight 4s ease-in-out;
+}

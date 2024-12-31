@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "RAG based Chatbot",
+    title: "RAG based Chatbot", // Used as reference
     shortDescription: "React.js, Python, REST APIs based intelligent chatbot using RAG architecture",
     description: `Developed a Retrieval-Augmented Generation (RAG) chatbot leveraging LlamaIndex and Google Gemini for highly accurate and context-aware automated responses. Built a vector store using scraped data, employing efficient text vectorization and document indexing techniques for optimal performance. Built a modular architecture enabling seamless addition of domain-specific data to knowledgebase.`,
     technologies: ["React.js", "Python", "REST APIs", "LlamaIndex", "Google Gemini"],

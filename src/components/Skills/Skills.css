@@ -1,5 +1,5 @@
 #skills {
-    background-color: #282c34;
+    /* background-color: #282c34; */
     padding: 60px 20px;
   }
   
@@ -11,7 +11,7 @@
   }
   
   .skills-category {
-    background-color: #333;
+    background-color: #f9f9f9;
     width: 45%;
     padding: 20px;
     border-radius: 10px;
@@ -32,7 +32,33 @@
   
   .skills-list li {
     font-size: 1.1rem;
-    color: #ddd;
+    /* color: #ddd; */
     margin: 5px 0;
   }
+
+  .skill-button {
+    background: none;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    padding: 2px 5px;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    text-align: left;
+  }
   
+  .skill-button:hover {
+    color: #00b8ff;
+    transform: translateX(5px);
+  }
+  
+  .skill-button::before {
+    content: '→';
+    opacity: 0;
+    margin-right: 5px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .skill-button:hover::before {
+    opacity: 1;
+  }

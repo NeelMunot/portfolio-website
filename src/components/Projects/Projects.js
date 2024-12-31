@@ -39,7 +39,12 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="projects-container">
         {projects.map((project, index) => (
-          <div key={index} className="project-card" onClick={() => handleShowModal(project)}>
+          <div 
+            key={index} 
+            className="project-card" 
+            data-reference={project.title}
+            onClick={() => handleShowModal(project)}
+          >
             <h3>{project.title}</h3>
             <p>{project.shortDescription}</p>
           </div>
