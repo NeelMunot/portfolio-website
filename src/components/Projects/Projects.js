@@ -66,16 +66,23 @@ const Projects = () => {
                 </div>
               )}
               {activeProject.subProjects && renderSubProjects(activeProject.subProjects)}
-              {activeProject.playStoreLink && (
-                <a href={activeProject.playStoreLink} target="_blank" rel="noopener noreferrer">
-                  View on Play Store
-                </a>
-              )}
-              {activeProject.githubLink && (
-                <a href={activeProject.githubLink} target="_blank" rel="noopener noreferrer">
-                  View on GitHub
-                </a>
-              )}
+              <div className="project-links">
+                {activeProject.deploymentLink && (
+                  <a href={activeProject.deploymentLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                    Live Demo
+                  </a>
+                )}
+                {activeProject.githubLink && (
+                  <a href={activeProject.githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                    GitHub Repository
+                  </a>
+                )}
+                {activeProject.playStoreLink && (
+                  <a href={activeProject.playStoreLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                    Play Store
+                  </a>
+                )}
+              </div>
             </Modal.Body>
           </>
         )}

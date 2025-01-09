@@ -10,7 +10,8 @@
 }
 
 .project-card {
-  background: var(--background);
+  /* background: var(--background); */
+  background-color: #f9f9f9;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -55,4 +56,25 @@
 
 .modal-body li {
   margin: 5px 0;
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.project-link {
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  /* background-color: #007bff; */
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  color: white;
 }
