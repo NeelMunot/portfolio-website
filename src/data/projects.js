@@ -4,7 +4,7 @@ const projects = [
     shortDescription: "React.js, Python, REST APIs based intelligent chatbot using RAG architecture",
     description: `Developed a Retrieval-Augmented Generation (RAG) chatbot leveraging LlamaIndex and Google Gemini for highly accurate and context-aware automated responses. Built a vector store using scraped data, employing efficient text vectorization and document indexing techniques for optimal performance. Built a modular architecture enabling seamless addition of domain-specific data to knowledgebase.`,
     technologies: ["React.js", "Python", "REST APIs", "LlamaIndex", "Google Gemini"],
-    githubLink: "https://github.com/yourusername/rag-chatbot"
+    githubLink: "https://ikshana-007.netlify.app/"
   },
   {
     title: "Vidyarthi Sahayyak Samiti",
@@ -23,11 +23,11 @@ const projects = [
         projects: [
           {
             name: "Tic-Tac-Toe Game",
-            link: "https://github.com/yourusername/tictactoe"
+            link: "https://github.com/NeelMunot/Projects/tree/main/Python%20Projects"
           },
           {
             name: "Full Battery Alert",
-            link: "https://github.com/yourusername/battery-alert"
+            link: "https://github.com/NeelMunot/Battery-Full-Alert"
           }
         ]
       },
@@ -36,7 +36,7 @@ const projects = [
         projects: [
           {
             name: "Cloud Security Fundamentals",
-            link: "https://www.cloudskillsboost.google/public_profiles/your-profile"
+            link: "https://www.credly.com/badges/9f4cd039-8532-454b-a067-08fe1a6bf66e/public_url"
           },
           {
             name: "Secure Google Cloud Network",
