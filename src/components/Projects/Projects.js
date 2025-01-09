@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Projects.css';
 import projects from '../../data/projects';
-import { Modal, Button } from 'react-bootstrap';
+import { Modal } from 'react-bootstrap';
 
 const Projects = () => {
   const [showModal, setShowModal] = useState(false);
