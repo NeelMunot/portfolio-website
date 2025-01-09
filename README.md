@@ -3,7 +3,7 @@
 A modern, responsive portfolio website built with React.js showcasing my projects, skills, and professional experience.
 
 ## Live Demo
-Visit the live website: [Portfolio Website](https://your-portfolio.netlify.app)
+Visit the live website: [Portfolio Website](https://neel-munot.netlify.app)
 
 ## Technology Stack
 - React.js
