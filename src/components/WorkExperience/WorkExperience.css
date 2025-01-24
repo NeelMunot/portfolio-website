@@ -4,36 +4,79 @@
 
 .work-experience-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
-  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.work-experience-tile {
-  width: 80%;
-  padding: 20px;
+.work-experience-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 25px;
   border-radius: 10px;
+  background-color: #f9f9f9;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.work-experience-card:hover {
+  transform: translateY(-5px);
 }
 
 .work-title {
   font-size: 1.6rem;
   font-weight: bold;
+  color: #333;
   margin-bottom: 10px;
 }
 
 .company-name {
   font-size: 1.3rem;
-  font-weight: bold;
   color: #00b8ff;
+  margin-bottom: 8px;
 }
 
-.duration {
+.duration, .location {
   font-size: 1.1rem;
-  color: #bbb;
+  color: #666;
+  margin: 5px 0;
 }
 
-.job-description {
-  font-size: 1rem;
-  color: #ddd;
+.modal-body ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.modal-body li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.skills {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+@keyframes highlight {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(0, 184, 255, 0);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 184, 255, 0.5);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(0, 184, 255, 0);
+  }
+}
+
+.highlight-component {
+  animation: highlight 2s ease-in-out;
 }
