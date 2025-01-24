@@ -2,7 +2,7 @@ const education = [
   {
     degree: 'Bachelor of Engineering', // Used as reference
     institution: 'Savitribai Phule Pune University',
-    GPA: '8.48/10',
+    GPA: '8.80/10',
     duration: 'Dec 2021 – June 2025'
   },
   {
